@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #1f2329;
+}
+
+header {
+  background-color: #1f2329;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo img {
+  height: 50px;
+}
+
+#hero img {
+  width: 100%;
+  height: 100%;
+}
+
+.trust-badges {
+  text-align: center;
+  padding: 20px;
+}
+.trust-badges img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #1f2329;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.brands {
+  text-align: center;
+  padding: 20px;
+}
+.brands h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #b6ff2e;
+  padding: 15px;
+  border-radius: 8px;
+  margin: auto;
+}
+.brands img {
+  margin: 10px;
+}
+
+.highlight h2 {
+  text-align: center;
+}
+.highlight hr {
+  border: none;
+  height: 2px;
+  background-color: #b6ff2e;
+}
+.highlight button {
+  background-color: #b6ff2e;
+  color: #1f2329;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+.contact-section {
+  padding: 5px;
+  position: relative;
+}
+.contact-section h2 {
+  margin-left: 20px;
+}
+.contact-container {
+  text-align: left;
+  padding: 30px;
+  border: 4px solid #b6ff2e;
+  border-radius: 8px;
+  background-color: #1f2329;
+  color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.contact-container label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+.contact-container input[type="text"],
+.contact-container input[type="date"],
+.contact-container input[type="time"],
+.contact-container input[type="color"],
+.contact-container select,
+.contact-container textarea {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b6ff2e;
+  margin-top: 5px;
+}
+.contact-container textarea {
+  resize: vertical;
+}
+.contact-container input[type="submit"],
+.contact-container input[type="reset"] {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+.contact-container input[type="submit"] {
+  background-color: #b6ff2e;
+  color: #1f2329;
+}
+.contact-container input[type="reset"] {
+  background-color: #1f2329;
+  color: #b6ff2e;
+  border: 1px solid #b6ff2e;
+}

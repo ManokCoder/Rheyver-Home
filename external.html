@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pickleball Philippines | Shop</title>
+    <link rel="stylesheet" href="landing_page.css">
+</head>
+<body>
+    <div id="header">
+      <header>
+        <div class="container" id="logo">
+          <img src="PickleShop.png" alt="PickleShop Logo" />
+        </div>
+      </header>
+    </div>
+    <div class="container" id="hero">
+      <img src="HeroSec.svg" alt="Landing Page Image" />
+    </div>
+
+    <div class="container trust-badges" style="text-align:center; padding:20px;">
+      <img src="w3c.svg" alt="Trust Badge" />
+      <img src="ppl.svg" alt="Trust Badge" />
+      <img src="ppa-2.svg" alt="Trust Badge" />
+    </div>
+
+    <div class="container brands">
+      <section style="text-align:center; padding:20px;">
+        <h2>Our Brand Collaborations</h2>
+        <img src="joola-logo.webp" width="200" height="200" alt="JOOLA Logo" />
+        <img src="selkirk-logo.webp" width="200" height="200" alt="SELKIRK Logo" />
+        <img src="pickleballph.webp" width="350" height="200" alt="ENGAGE Logo" />
+        <img src="franklin.jpg" width="350" height="150" alt="PICKLEBALLPH Logo" />
+        <img src="paddletek.webp" width="200" height="200" alt="PADDLETEK Logo" />
+        <img src="crbn.jpg" width="350" height="150" alt="CRBN Logo" />
+      </section>
+    </div>
+
+    <div class="container highlight">
+      <section>
+        <hr />
+        <h2>Featured Products</h2>
+        <marquee behavior="alternate" loop="infinite" scrollamount="3">
+          <table border="1" cellpadding="19" cellspacing="0" align="center">
+            <tr align="center">
+              <td>
+                <h3>JOOLA Kosmos Pro V</h3>
+                <img src="Kosmos Pro V.webp" alt="Product Image" width="220" height="220">
+                <p>₱22,890.00</p>
+              </td>
+              <td>
+                <h3>JOOLA Agassi Pro V</h3>
+                <img src="Agassi.webp" alt="Product Image" width="220" height="220">
+                <p>₱17,690.00</p>
+              </td>
+              <td>
+                <h3>JOOLA Scorpeus Heat Vision</h3>
+                <img src="perseus iv.webp" alt="Product Image" width="220" height="220">
+                <p>₱5,990.00</p>
+              </td>
+              <td>
+                <h3>SELKIRK Sling Bag</h3>
+                <img src="selkirk-bag.webp" alt="Product Image" width="220" height="220">
+                <p>₱2,250.00</p>
+              </td>
+              <td>
+                <h3>SELKIRK Cleaning Block</h3>
+                <img src="cleaning-block.webp" alt="Product Image" width="220" height="220">
+                <p>₱590.00</p>
+              </td>
+              <td>
+                <h3>SELKIRK Tour Backpack</h3>
+                <img src="selkirk-big-bag-red.webp" alt="Product Image" width="220" height="220">
+                <p>₱7,990.00</p>
+              </td>
+              <td>
+                <h3>SELKIRK Boomstik</h3>
+                <img src="selkirk-boomstik.webp" alt="Product Image" width="220" height="220">
+                <p>₱20,990.00</p>
+              </td>
+            </tr>
+          </table>
+        </marquee>
+        <button>View All Products</button>
+        <hr />
+      </section>
+    </div>
+
+    <div class="contact-section">
+      <h2>Contact Us!</h2>
+      <div class="contact-container">
+        <form>
+          <div>
+            <label for="website">Website</label>
+            <input type="text" id="website" placeholder="https://yoursite.com">
+          </div><br>
+          <div>
+            <label for="meeting-date">Preferred Meeting Date</label>
+            <input type="date" id="meeting-date">
+          </div><br>
+          <div>
+            <label for="meeting-time">Preferred Meeting Time</label>
+            <input type="time" id="meeting-time">
+          </div><br>
+          <div>
+            <label for="budget">Estimated Budget:</label>
+            <input type="range" id="budget" min="1000" max="100000" step="1000" value="10000">
+          </div><br>
+          <div>
+            <label for="color-picker">Pick a color you like:</label>
+            <input type="color" id="color-picker">
+          </div><br>
+          <div>
+            <label for="favorite-snack">Favorite Snack:</label>
+            <input type="text" id="favorite-snack" placeholder="Enter your favorite snack">
+          </div><br>
+          <div>
+            <label for="country">Country:</label>
+            <select id="country">
+              <option value="Philippines">Philippines</option>
+              <option value="Vietnam">Vietnam</option>
+              <option value="Thailand">Thailand</option>    
+              <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+            </select>
+          </div><br>
+            <div>
+                <label for="user-message">Message:</label>
+                <textarea id="user-message" rows="4" cols="50" placeholder="Say hello..."></textarea>
+            </div><br>
+            <div>
+                <label for="sub-notification">Subscribe for Occassional Updates:</label>
+                <input type="checkbox" id="sub-notification">
+            </div><br>
+            <div>
+                <label for="file-upload">Upload a file:</label>
+                <input type="file" id="file-upload">
+            </div><br>
+            <div>
+                <label for="contact-method">Preferred Contact Method:</label><br>
+                <input type="radio" id="email-method" name="contact-method" value="email">
+                <label for="email-method">Email</label>
+                <input type="radio" id="phone-method" name="contact-method" value="phone">
+                <label for="phone-method">Phone</label>
+            </div><br>
+            <div>
+                <input type="submit" value="Submit" id="send-message">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
